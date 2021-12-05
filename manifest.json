@@ -1,0 +1,12 @@
+{
+    "name": "Show Audible Progress",
+    "description": "Shows the progress of your audible audiobooks",
+    "version": "0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": ["https://www.audible.de/library/titles*"],
+            "js": ["show_progress.js"]
+        }
+    ]
+}
